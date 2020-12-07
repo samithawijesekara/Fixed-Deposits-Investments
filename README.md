@@ -18,4 +18,4 @@ See how much can you earn with fixed deposits
 - CSS
 - JavaScript
 
-## How to used this?<a name="How"/>
+## How to use this?<a name="How"/>
