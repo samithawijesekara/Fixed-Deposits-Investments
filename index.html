@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fixed Deposits Investments</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--===============================================================================================-->
+</head>
+
+<body>
+    <h1 class="animated slideInDown">Fixed Deposits Investments</h1>
+    <div class="wrap animated fadeIn">
+        <div class="slider animated fadeIn">
+            <label><i class="far fa-money-bill-alt" style="padding-right: 2px; font-size: 15px;"></i> Amount (LKR) : </label><br>
+            <input id="amount" class="range" type="range" value="0" min="0" max="10000000" step="10000">
+            <span class="value">0</span>
+        </div>
+        <div class="slider slider2 animated fadeIn">
+            <label><i class="far fa-clock" style="padding-right: 2px; font-size: 15px;"></i> Time Period (Years) : </label><br>
+            <input id="time" class="range" type="range" value="0" min="0" max="10" step="1">
+            <span class=" value ">0</span>
+        </div>
+        <div class="slider slider3 animated fadeIn">
+            <label><i class="fas fa-percentage" style="padding-right: 2px; font-size: 15px;"></i> Interest Rate (%) : </label><br>
+            <input id="rate" class="range" type="range" value="0" min="0" max="100" step="0.5">
+            <span class="value ">0</span>
+        </div><br><br>
+        <div class="radioin slider4 animated fadeIn">
+            <input type="radio" class="Checkbox" name="type" value="1" checked="checked"><label for="monthly ">Monthly</label>
+            <input type="radio" class="Checkbox" name="type" value="2"><label for="annually ">Annually</label>
+            <input type="radio" class="Checkbox" name="type" value="3"><label for="maturity">Maturity</label>
+        </div>
+        <button class="slider5 animated fadeIn" onclick="interestCal()">Get Interest <i class="fas fa-calculator" style="padding-left: 2px; font-size: 16px;"></i></button>
+        <span style="text-align: center;" class="result" id="result"></span>
+    </div>
+
+    <p class="footer animated fadeIn"><i>Developed by <a href="https://github.com/samithawijesekara" target="_blank">Samitha Wijesekara</a></i></p>
+    <!--===============================================================================================-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js "></script>
+    <!--===============================================================================================-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "></script>
+    <!--===============================================================================================-->
+    <script src="script.js "></script>
+    <!--===============================================================================================-->
+</body>
+
+</html>
