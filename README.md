@@ -1,7 +1,7 @@
 # Fixed-Deposits-Investments
 See how much can you earn with fixed deposits
 
-💻😍 Check this online demo : https://fixed-deposits-investments.netlify.app/
+💻😍 Online Demo : https://fixed-deposits-investments.netlify.app/
 
 
 ### Table of Content
